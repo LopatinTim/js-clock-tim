@@ -1,0 +1,54 @@
+body {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-image: url(fire&water.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.clock {
+    height: 450px;
+    width: 450px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.400);
+    border: 25px solid black;
+    box-shadow: 0 0 100px 20px black;
+    border-radius: 50%;
+    position: relative;
+}
+
+.hand {
+    width: 10px;
+    background-color: black;
+    position: absolute;
+    left: 50%;
+    border: 2px solid white;
+    transform-origin: bottom center;
+    border-radius: 35%;
+    transition: all 0.1s;
+}
+
+.sec {
+    height: 45%;
+    top: 5%;
+}
+
+.min {
+    height: 35%;
+    top: 15%;
+}
+
+.hour {
+    height: 25%;
+    top: 25%;
+}
